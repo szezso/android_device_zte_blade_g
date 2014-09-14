@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+## Get non-open-source device-specific aspects if available
+$(call inherit-product-if-exists, vendor/zte/blade_g/blade_g-vendor.mk)
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # The GPS configuration appropriate for this device.
