@@ -1,0 +1,2 @@
+add_lunch_combo cm_blade_g-userdebug
+add_lunch_combo cm_blade_g-full
