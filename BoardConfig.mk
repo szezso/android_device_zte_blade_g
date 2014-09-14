@@ -98,7 +98,7 @@ TARGET_USES_ION := true
 TARGET_USES_QCOM_BSP := true
 
 # Hardware
-BOARD_HARDWARE_CLASS := device/zte/blade_/cmhw
+BOARD_HARDWARE_CLASS := device/zte/blade_g/cmhw
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00200000
